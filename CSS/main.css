@@ -25,14 +25,14 @@ body {
 }
 
 /* --------------- Navbar ---------------- */
-.navbar {
+/* .navbar {
   position: sticky;
   top: 0;
   height: 60px;
   width: 100%;
   display: flex;
   align-items: center;
-  background: rgb(231, 226, 221);
+  background: #e7e2dd;
   z-index: 1;
 }
 
@@ -44,10 +44,11 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 0 1.5rem;
-}
+} */
 
 .nav-icon {
   font-size: 1.5rem;
+  float: right;
 }
 
 .cart-btn {
@@ -270,3 +271,21 @@ body {
 }
 
 /* --------------- End of Cart ---------------- */
+/* --------------- footer ---------------- */
+footer {
+  background-color: #424558;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 45px;
+  text-align: center;
+  color: #ccc;
+}
+
+footer p {
+  padding: 10px;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+/* --------------- End of footer ---------------- */
