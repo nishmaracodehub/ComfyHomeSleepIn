@@ -65,6 +65,51 @@ body {
   border-radius: 30%;
   color: var(--mainWhite);
 }
+.navbar-toggler {
+  border: none !important;
+  outline: none !important;
+}
+
+#wrapper {
+  display: inline-block;
+  margin: 10px;
+  position: relative;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.line {
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  background: var(--mainBlack);
+  border-radius: 8px;
+  transition: all cubic-bezier(0.26, 0.1, 0.27, 1.55) 0.35s;
+}
+
+.top {
+  top: 18%;
+  right: 1%;
+}
+.middle {
+  top: 48%;
+  right: 1%;
+}
+.bottom {
+  top: 78%;
+  right: 1%;
+}
+
+.icon.close .top {
+  transform: rotate(45deg);
+  top: 48%;
+}
+
+.icon.close .middle,
+.icon.close .bottom {
+  transform: rotate(-45deg);
+  top: 48%;
+}
 
 /* --------------- End of Navbar ---------------- */
 /* --------------- Hero ---------------- */

@@ -18,6 +18,12 @@ const cartTotal = document.querySelector(".cart-total");
 const cartContent = document.querySelector(".cart-content");
 const productsDOM = document.querySelector(".products-center");
 const bannerBtn = document.querySelector(".banner-btn");
+const hamBtn = document.getElementById("wrapper");
+
+// hamburger animation
+hamBtn.addEventListener("click", function() {
+  $(".icon").toggleClass("close");
+});
 
 // scroll to products
 bannerBtn.addEventListener("click", () => {
